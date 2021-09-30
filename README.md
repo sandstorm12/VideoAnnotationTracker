@@ -1,6 +1,6 @@
 # VideoAnnotationTracker
 
-A baseline for video annotation with visual tracker helper.
+A baseline for video annotation with a KCF-based visual tracker helper.
 
 **Current version is just for demo purposes and is barely practially useful**
 
