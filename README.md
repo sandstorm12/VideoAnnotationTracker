@@ -23,6 +23,8 @@ python3 -m pip install git+https://github.com/sandstorm12/VideoAnnotationTracker
 vidtrack -i input_video.mp4
 ```
 
+Use **any key** to move forward. Use **q** to quit.
+
 
 ## Urgent issues and future work
 1. Add other internal parameters as arguments.
@@ -31,6 +33,7 @@ vidtrack -i input_video.mp4
 ## Issues and future work
 1. Add bounding box online labeling.
 2. Add bounding box storage and formatting.
+3. Add the feature to move backwards through video and remove previous annotations.
 
 
 ## Contributors
