@@ -1,0 +1,33 @@
+#!/usr/bin/python3
+
+
+import argparse
+
+from video_annotator_tracker import AnnotatorTracker
+
+
+def _get_arguments():
+    parser = argparse.ArgumentParser(description='Video Annotation Tracker.')
+
+    parser.add_argument(
+        '-i', '--input_video',
+        help='The input video for demo annotation',
+        required=True
+    )
+
+    arguments = vars(parser.parse_args())
+    
+    return arguments
+
+
+def _run(video_path):
+    annotator_tracker = AnnotatorTracker(path=video_path)
+    annotator_tracker.run()
+
+
+if __name__ == "__main__":
+    arguments = _get_arguments()
+
+    print(arguments)
+
+    _run(arguments["input_video"])
