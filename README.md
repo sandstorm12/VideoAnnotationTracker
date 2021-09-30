@@ -23,7 +23,7 @@ python3 -m pip install git+https://github.com/sandstorm12/VideoAnnotationTracker
 vidtrack -i input_video.mp4
 ```
 
-Use **any key** to move forward. Use **q** to quit.
+Use **Any Key** to move forward. Use **Q** to quit.
 
 
 ## Urgent issues and future work
