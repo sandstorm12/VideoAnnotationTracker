@@ -23,11 +23,13 @@ python3 -m pip install git+https://github.com/sandstorm12/VideoAnnotationTracker
 vidtrack -i input_video.mp4
 ```
 
+Use **Mouse Drag** to draw bounding boxes.
 Use **Any Key** to move forward. Use **Q** to quit.
 
 
 ## Urgent issues and future work
 1. Add other internal parameters as arguments.
+2. Process does not stop on window close.
 
 
 ## Issues and future work
